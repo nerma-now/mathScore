@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="@string/zero"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/zero"
+        android:layout_marginTop="660.0dp"/>
+    <Button
+        android:text="@string/one"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/one"
+        android:layout_marginTop="600.0dp" />
+    <Button
+        android:text="@string/two"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/two"
+        android:layout_marginTop="600.0dp" 
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:text="@string/three"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/three"
+        android:layout_marginTop="540.0dp" />
+    <Button
+        android:text="@string/four"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/four"
+        android:layout_marginTop="540.0dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:text="@string/five"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/five"
+        android:layout_marginTop="480.0dp" />
+    <Button
+        android:text="@string/six"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/six"
+        android:layout_marginTop="480.0dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:text="@string/seven"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/seven"
+        android:layout_marginTop="420.0dp" />
+    <Button
+        android:text="@string/eight"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/eight"
+        android:layout_marginTop="420.0dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:text="@string/nine"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/nine"
+        android:layout_marginTop="360.0dp" />
+    <Button
+        android:text="@string/ten"
+        android:layout_width="200.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/ten"
+        android:layout_marginTop="360.0dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:text="@string/clear"
+        android:layout_width="50.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/clear"
+        android:layout_marginTop="300.0dp"
+        android:layout_marginLeft="225dp"/>
+    <Button
+        android:text="@string/clearAll"
+        android:layout_width="110.6dp"
+        android:layout_height="60dp"
+        android:id="@+id/clearAll"
+        android:layout_marginTop="300.0dp"
+        android:layout_marginLeft="280dp"/>
+    <TextView
+        android:text="@string/textCount"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCount"
+        android:layout_marginTop="335.0dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:text="@string/textResult"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textResult"
+        android:layout_marginTop="305.0dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:text="@string/textList"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textList"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
